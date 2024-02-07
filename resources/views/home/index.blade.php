@@ -49,7 +49,7 @@
 
 <body id="home4">
 
-    @include('Home/navbar')
+    @include('home/navbar')
 
     <!-- main content -->
     <div class="main-content">
@@ -332,7 +332,7 @@
     </div>
     <div class="p-3"></div>
 
-    @include('Home/footer')
+    @include('home/footer')
 
     <!-- Page Loader -->
     <div id="page-preloader">
