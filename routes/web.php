@@ -19,50 +19,50 @@ use Illuminate\Support\Facades\Route;
 Route::resource('/', IndexController::class);
 
 Route::get('home', function () {
-    return view('Home.index');
+    return view('home.index');
 });
 
 Route::get('about', function () {
-    return view('Home.about');
+    return view('home.about');
 });
 
 Route::get('product', function () {
-    return view('Home.product');
+    return view('home.product');
 });
 
 Route::get('contact', function () {
-    return view('Home.contact');
+    return view('home.contact');
 });
 
 // ================ Product Item View ================
 
 Route::get('diningtable', function () {
-    return view('Home.diningtable');
+    return view('home.diningtable');
 });
 Route::get('bartable', function () {
-    return view('Home.bartable');
+    return view('home.bartable');
 });
 Route::get('coffetable', function () {
-    return view('Home.coffetable');
+    return view('home.coffetable');
 });
 Route::get('table', function () {
-    return view('Home.table');
+    return view('home.table');
 });
 Route::get('bench', function () {
-    return view('Home.bench');
+    return view('home.bench');
 });
 Route::get('chairbar', function () {
-    return view('Home.chairbar');
+    return view('home.chairbar');
 });
 Route::get('sofa', function () {
-    return view('Home.sofa');
+    return view('home.sofa');
 });
 Route::get('chair', function () {
-    return view('Home.chair');
+    return view('home.chair');
 });
 Route::get('nacas', function () {
-    return view('Home.nacas');
+    return view('home.nacas');
 });
 Route::get('bed', function () {
-    return view('Home.bed');
+    return view('home.bed');
 });
