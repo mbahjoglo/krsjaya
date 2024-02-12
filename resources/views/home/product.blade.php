@@ -62,7 +62,7 @@
                             <div class="content">
                                 <div class="row">
 
-                                    @include('Home/categoryproductnavbar')
+                                    @include('home/categoryproductnavbar')
 
                                     <div class="col-sm-8 col-lg-9 col-md-8 product-container">
 
