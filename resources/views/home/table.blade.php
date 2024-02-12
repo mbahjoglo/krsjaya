@@ -116,7 +116,7 @@
                                                                             <form action="" method="post"
                                                                                 class="formAddToCart">
                                                                                 <a class="add-to-cart text-decoration-none"
-                                                                                    href="https://wa.me/08561173501"
+                                                                                    href="https://wa.me/8561173501"
                                                                                     data-button-action="add-to-cart">
                                                                                     <i class="fa fa-shopping-cart"
                                                                                         aria-hidden="true"
