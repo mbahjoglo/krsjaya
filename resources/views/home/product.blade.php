@@ -49,7 +49,7 @@
 
 <body id="product-sidebar-left">
 
-    @include('Home/navbar')
+    @include('home/navbar')
 
     <!-- main content -->
     <div class="main-content">
@@ -1059,7 +1059,7 @@
         </a>
     </div>
 
-    @include('Home/footer')
+    @include('home/footer')
 
 
 

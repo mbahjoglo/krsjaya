@@ -48,7 +48,7 @@
 
 <body id="contact" class="blog">
 
-    @include('Home/navbar')
+    @include('home/navbar')
 
     <!-- main content -->
     <div class="main-content">
@@ -127,7 +127,7 @@
         </div>
     </div>
 
-    @include('Home/footer')
+    @include('home/footer')
 
     <!-- Page Loader -->
     <div id="page-preloader">
