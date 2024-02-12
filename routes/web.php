@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\IndexController;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/clear-cache', function () {
+    $exitCode = Artisan::call('cache:clear');
+    // return what you want
+});
 
 // ================ Home View ================
 
