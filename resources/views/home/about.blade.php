@@ -49,7 +49,7 @@
 
 <body id="about-us" class="blog">
 
-    @include('Home/navbar')
+    @include('home/navbar')
 
     <!-- main content -->
     <div class="main-content">
